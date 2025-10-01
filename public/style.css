@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f4f4f4;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2b6777;
+  padding: 10px;
+  color: #fff;
+  border-radius: 6px;
+}
+form input, button {
+  margin: 5px;
+  padding: 8px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: white;
+}
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+.pagination {
+  margin-top: 10px;
+  text-align: center;
+}
+button {
+  background: #52ab98;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #3c8d7a;
+}
+section {
+  background: white;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 6px;
+}
